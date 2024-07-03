@@ -1,0 +1,24 @@
+<section class="portfolios">
+    <div class="container hero-header" id="portfolio">
+        <div class="row d-flex align-items-center text-center pt-5">
+          <h2 class="text-center works">Some of My</h2>
+          <h2 class="text-center works-title mb-5">WORKS</h2>
+        </div>
+        <div class="row pb-5">
+          <div *ngFor="let portfolios of portfolio" class="col-lg-4 col-md-4 mb-4 mb-lg-0">
+            <!-- Card-->
+            <div class="card shadow-sm border-0 rounded mb-5">
+              <div class="card-body p-0 card-portfolio"><img [src]="portfolios.picture_portfolio" alt="" class="w-100 card-img-top img-portfolio">
+                <div class="p-4">
+                  <h5 class="mb-0 portfolio-title">{{portfolios.name}}</h5>
+                  <p class="small portfolio-subtitle">{{portfolios.description}}</p>
+                  <div class="d-flex gap-2">
+                    <a [href]="portfolios.button" class="btn border-2 custom-btn">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>

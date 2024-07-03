@@ -1,0 +1,36 @@
+.navbar-brand{
+    color: #FFFFFF; /* Default white color */
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+}
+
+.nav-link {
+    color: #FFFFFF; /* Default white color */
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.3s; /* Smooth transition for color */
+  }
+
+  /* Hover effect */
+  .nav-link:hover {
+    color: #00ADFF; /* Hover color */
+    text-decoration: none; /* Remove underline on hover */
+  }
+
+  /* Active link styling */
+  .nav-link.active {
+    color: #00ADFF; /* Active link color */
+  }
+
+  .custom-navbar {
+    transition: background-color 0.3s, padding 0.3s;
+  }
+  
+  .navbar-default {
+    background-color: transparent;
+    padding: 2rem 5rem; /* Default padding */
+  }
+  
+  .navbar-scrolled {
+    background-color: #030923; /* Example background color */
+    padding: 1rem 5rem; /* Reduced padding on scroll */
+  }

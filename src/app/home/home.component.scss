@@ -1,0 +1,149 @@
+.header{
+    padding-top: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("/assets/background1.png");
+    overflow: hidden;
+     
+ }
+ 
+ .hero-custom {
+     height: 100%; /* Ensure full height of parent (.header) */
+     display: flex;
+     align-items: center;
+   }
+ .custom-navbar{
+     padding: 10px 100px;
+     background-color: none;
+ }
+ 
+ 
+ .hero-custom img {
+     max-width: 100%; /* Ensure image stays within column width */
+     max-height: 100%; /* Ensure image stays within viewport height */
+     height: auto;
+     width: auto;
+     object-fit: contain; /* Maintain aspect ratio */
+   }
+ 
+ h1.intro{
+     padding: 5px 0px;
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 24px;
+     color: #ffff;
+ }
+ 
+ 
+ h2.name{
+     padding: 5px 0px;
+     font-family: "DM Sans";
+     color: #ffff;
+     font-weight: bold;
+     font-size: 54px;
+ }
+ 
+ h2.job-title{
+     font-size: 24px;
+     color: #ffff;
+     font-weight: 400;
+     font-family: "Roboto Mono";
+ }
+ 
+ 
+ 
+ .custom-btn {
+     margin-top: 20px;
+     background-color: transparent; /* Transparent background */
+     color: #fff; /* Text color */
+     border: solid 3px #00ADFF; /* Solid border with color */
+     padding: 10px 20px; /* Padding */
+     border-radius: 5px; /* Rounded corners */
+     text-align: center; /* Center text */
+     text-decoration: none; /* Remove underline */
+     display: inline-block; /* Make it inline-block for padding to apply */
+     position: relative; /* Position relative for gradient effect */
+     z-index: 1; /* Ensure button content is above gradient */
+     overflow: hidden; /* Hide overflow to prevent gradient spill */
+     transition: background-color 0.5s ease, color 0.5s ease, border-color 0.5s ease; /* Smooth transition */
+   }
+ 
+   .custom-btn::before {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(90deg, rgba(172,117,255,1) 0%, rgba(9,172,190,1) 35%, rgba(48,76,157,1) 100%);
+     z-index: -1;
+     transition: opacity 0.5s ease;
+     opacity: 0;
+     border-radius: 5px;
+   }
+ 
+   .custom-btn:hover::before {
+     opacity: 1;
+   }
+ 
+   .custom-btn:hover {
+     color: #ffff; /* Keep text color white */
+     text-decoration: none; /* Remove underline on hover */
+     border-color: transparent; /* Hide solid border on hover */
+   }
+   h2.skills-word{
+    font-family: "Roboto Mono";
+    color: #ffff;
+    font-size: 46px;
+    font-weight: bold;
+}
+  .banner-skills{
+    background-color: #030923;
+  }
+
+  .skills-svg{
+    width: 50px;
+  }
+
+  .skills-card{
+    background-color: transparent;
+    border: 4px solid #00ADFF;
+    border-radius: 24px;
+    width: 292px;
+    height: 308px;
+  }
+
+  .skills-text{
+    color: #ffff;
+    font-family: "Roboto";
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 25px;
+  }
+
+footer{
+    background-color: #030923;
+}
+
+h2.footer-title{
+    font-family: "Roboto Mono";
+    color: #ffff;
+    font-size: 36px;
+}
+
+p.footer-paragraph{
+    font-family: "Roboto Mono";
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+p.footer-credits{
+    font-family: "Roboto Mono";
+    color: #ffff;
+    font-weight: 200;
+    font-size: 14px;
+}
+.row.d-flex.align-items-center.text-center.pt-5 {
+  margin-right: 0;
+}

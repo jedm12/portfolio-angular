@@ -1,0 +1,31 @@
+.about{
+    background-image: url("/assets/background2.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h2.about-me{
+    padding: 25px 0px;
+    font-family: "Roboto Mono";
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+  }
+  h2.about-subtitle{
+    font-family: "Roboto Mono";
+    font-weight: 500;
+    font-size: 36px;
+    color: #ffff;
+  }
+  p.about-me{
+    font-family: "Roboto Mono";
+    font-weight: 300;
+    font-size: 16px;
+    color: #ffff;
+    // padding-right: 200px;
+  }
+
+//   .about-info{
+//     padding-right: 30px;
+//   }
